@@ -1,0 +1,26 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.markers_list {
+  display: flex;
+  height: 50px;
+  width: 200px;
+  background-color: #777777;
+  color: white;
+  padding-left: 15%;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+
+  .downArrow {
+    width: 20px;
+    height: 20px;
+    margin-left: 7%;
+  }
+}
+
+.markers_list:hover, .markers_list:focus {
+}
