@@ -2,56 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="992e17f5-c726-4ea3-b02d-f6d68efa3ad2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/android-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/android-icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/android-icon-36x36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/android-icon-48x48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/android-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/android-icon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/apple-icon-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/apple-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/apple-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/apple-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/apple-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/apple-icon-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/apple-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/apple-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/apple-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/apple-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/ms-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/ms-icon-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/ms-icon-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/ms-icon-70x70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo/todo_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ListOfMarkers.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ListOfMarkers.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ListOfMarkers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MarkersDropDown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MarkersDropDown.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MarkersDropDown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/down-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/todo_banner(transparent).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/todo_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tasks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tasks.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tasks.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListOfMarkers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListOfMarkers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListOfMarkers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListOfMarkers.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListOfMarkers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListOfMarkers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MarkersDropDown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MarkersDropDown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MarkersDropDown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MarkersDropDown.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MarkersDropDown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MarkersDropDown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/down-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/down-arrow.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +26,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="dev" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZXx47DvwHQGVagqfLCDqOF3fkh" />
@@ -110,6 +95,10 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -134,8 +123,21 @@
       <option name="presentableId" value="Default" />
       <updated>1584999045283</updated>
       <workItem from="1584999046785" duration="4374000" />
-      <workItem from="1585047198209" duration="8613000" />
+      <workItem from="1585047198209" duration="19728000" />
+      <workItem from="1585085432489" duration="702000" />
+      <workItem from="1585086653365" duration="2076000" />
+      <workItem from="1585167673732" duration="4127000" />
+      <workItem from="1585171947182" duration="3260000" />
+      <workItem from="1585221541629" duration="4072000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1585062555539</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585062555539</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,12 +145,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="114" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585087457957">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="114" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.738@0.0.1360.738" timestamp="1585087457957" />
     <state x="428" y="158" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585054439948">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="428" y="158" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.738@0.0.1360.738" timestamp="1585054439948" />
+    <state x="360" y="104" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585171760325">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="360" y="104" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1360.738@0.0.1360.738" timestamp="1585171760325" />
     <state x="410" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585000635917">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
@@ -157,22 +169,26 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="303" y="0" key="CommitChangelistDialog2/0.0.1360.738@0.0.1360.738" timestamp="1585062554043" />
-    <state width="1338" height="146" key="GridCell.Tab.0.bottom" timestamp="1585048125981">
+    <state x="459" y="110" key="FileChooserDialogImpl" timestamp="1585081439147">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1338" height="146" key="GridCell.Tab.0.bottom/0.0.1360.738@0.0.1360.738" timestamp="1585048125981" />
-    <state width="1338" height="146" key="GridCell.Tab.0.center" timestamp="1585048125981">
+    <state x="459" y="110" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1585081439147" />
+    <state width="1338" height="146" key="GridCell.Tab.0.bottom" timestamp="1585222700335">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1338" height="146" key="GridCell.Tab.0.center/0.0.1360.738@0.0.1360.738" timestamp="1585048125981" />
-    <state width="1338" height="146" key="GridCell.Tab.0.left" timestamp="1585048125980">
+    <state width="1338" height="146" key="GridCell.Tab.0.bottom/0.0.1360.738@0.0.1360.738" timestamp="1585222700335" />
+    <state width="1338" height="146" key="GridCell.Tab.0.center" timestamp="1585222700335">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1338" height="146" key="GridCell.Tab.0.left/0.0.1360.738@0.0.1360.738" timestamp="1585048125980" />
-    <state width="1338" height="146" key="GridCell.Tab.0.right" timestamp="1585048125981">
+    <state width="1338" height="146" key="GridCell.Tab.0.center/0.0.1360.738@0.0.1360.738" timestamp="1585222700335" />
+    <state width="1338" height="146" key="GridCell.Tab.0.left" timestamp="1585222700335">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1338" height="146" key="GridCell.Tab.0.right/0.0.1360.738@0.0.1360.738" timestamp="1585048125981" />
+    <state width="1338" height="146" key="GridCell.Tab.0.left/0.0.1360.738@0.0.1360.738" timestamp="1585222700335" />
+    <state width="1338" height="146" key="GridCell.Tab.0.right" timestamp="1585222700335">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state width="1338" height="146" key="GridCell.Tab.0.right/0.0.1360.738@0.0.1360.738" timestamp="1585222700335" />
     <state x="181" y="0" key="SettingsEditor" timestamp="1585062641050">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
