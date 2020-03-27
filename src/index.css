@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Oxygen&display=swap");
 body {
+  height: 100%;
+  width: 100%;
   padding: 0;
   margin: 0;
   font-family: "Oxygen", sans-serif;
   background: #777777;
+  display: grid;
+  grid-template-columns: 20% 80%;
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
