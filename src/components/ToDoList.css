@@ -1,0 +1,8 @@
+.todoList {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
+  grid-template-columns: 10% auto 10%;
+  height: inherit;
+  width: inherit;
+  padding: 0 5%;
+}

@@ -3,7 +3,7 @@ import './Navigation.css';
 import '../img/todo_banner(transparent)_1.png';
 import './MarkersDropDown';
 import MarkersDropDown from "./MarkersDropDown";
-import Tasks from "./Tasks";
+// import ToDoList from "./ToDoList";
 
 class Navigation extends React.Component{
 
@@ -14,11 +14,11 @@ class Navigation extends React.Component{
       ],
 
         marker: [
-            {name: 'Marker 1'},
-            {name: 'Marker 2'},
-            {name: 'Marker 3'},
-            {name: 'Marker 4'},
-            {name: 'Marker 5'},
+            {name: 'Home'},
+            {name: 'Study'},
+            {name: 'Work'},
+            {name: 'Sport'},
+            {name: 'Goals'},
         ],
 
         currentOpenTask: {markerId: 0, task:{name: 'firsTask', description:'learn BD'}},
@@ -32,11 +32,11 @@ class Navigation extends React.Component{
         ]
     };
 
-    openTask = (index) => {
-     const {tasks} = this.state;
-        this.setState({currentOpenTask: tasks[index]})
-
-    };
+    // openTask = (index) => {
+    //  const {tasks} = this.state;
+    //     this.setState({currentOpenTask: tasks[index]})
+    //
+    // };
 
     onTaskDelete = (index) => {
         const {marker = []} = this.state;
@@ -45,8 +45,9 @@ class Navigation extends React.Component{
     };
 
   render() {
-      const {marker, currentOpenTask, user} = this.state;
-    return(
+      const {marker, user} = this.state;
+
+      return(
         <div className="navBar">
             <img className="logo" alt="Logo" src={require('../img/todo_banner(transparent)_1.png')}/>
             <p className="user_name">
@@ -62,10 +63,9 @@ class Navigation extends React.Component{
 
             <MarkersDropDown
                 marker = {marker}
-                openTask = {this.openTask}
+                // openTask = {this.openTask}
                 onTaskDelete = {this.onTaskDelete}/>
-            <Tasks currentOpenTask = {currentOpenTask} openTask = {this.openTask} />
-            {/*<div>{currentOpenTask.task.name + ' ' + currentOpenTask.task.description} </div>*/}
+            {/*<ToDoList />*/}
 
             <h2 className="stats">
                 Statistics
@@ -76,9 +76,8 @@ class Navigation extends React.Component{
             </h2>
             {/*<TaskDetail currentOpenTask={currentOpenTask}/> */}
         </div>
-    )
+      )
   }
 }
-
 
 export default Navigation;

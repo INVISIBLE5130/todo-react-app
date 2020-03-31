@@ -15,7 +15,7 @@ class MarkersDropDown extends React.Component {
 
     render() {
         const {showDropdown} = this.state;
-        const {marker, openTask, onTaskDelete} = this.props;
+        const {marker, onTaskDelete} = this.props;
 
         return (
             <div className="dropDown">
@@ -25,7 +25,7 @@ class MarkersDropDown extends React.Component {
                 </button>
                 {showDropdown && <ListOfMarkers
                     marker = {marker}
-                    openTask = {openTask}
+                    // openTask = {openTask}
                     onTaskDelete={onTaskDelete} />}
             </div>
         )

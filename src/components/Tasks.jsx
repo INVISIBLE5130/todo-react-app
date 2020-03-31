@@ -1,17 +1,14 @@
 import React from "react";
 import './Tasks.css';
-import './Navigation';
+import '../img/unchecked.svg';
+import '../img/more.svg';
 
-class Tasks extends React.Component{
-
-    render() {
-        const {currentOpenTask} = this.props;
-
-        return (
-            <div>{currentOpenTask.task.name + ' ' + currentOpenTask.task.description} </div>
-        )
-    }
-
-}
-
-export default Tasks;
+export default props => (
+    <div className="todo">
+        <img alt="Check box" className="checkBox" src={require('../img/unchecked.svg')}/>
+        <p className="title">
+            {props.name}
+        </p>
+        <img alt="More" className="more" src={require('../img/more.svg')}/>
+    </div>
+)

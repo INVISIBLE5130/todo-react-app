@@ -6,7 +6,7 @@
 .markers_list {
   display: flex;
   height: 30px;
-  width: 205px;
+  width: 229px;
   background-color: #777777;
   border: 1px solid #ff7000;
   padding: 0 30%;
@@ -24,7 +24,7 @@
 .markers_list:hover {
   display: flex;
   height: 30px;
-  width: 205px;
+  width: 229px;
   background-color: #ff7000;
   color: black;
   padding: 0 30%;
