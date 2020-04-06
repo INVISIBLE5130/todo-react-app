@@ -13,8 +13,10 @@
     color: white;
     flex-wrap: wrap;
     margin-left: 7%;
-    display: inherit;
     position: relative;
+    line-height: 1;
+    display: inline-block;
+    cursor: pointer;
 
     .delete{
       top: 10%;
@@ -24,5 +26,19 @@
       cursor: pointer;
       position: absolute;
     }
+  }
+
+  p:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0;
+    background-color: white;
+    transition: width .3s ease-in-out;
+  }
+
+  p:hover:after,
+  p:focus:after {
+    width: 50%;
   }
 }

@@ -26,6 +26,3 @@
   height: 17px;
   margin-left: 5%;
 }
-.dropDown .markers_list .Arrow:focus {
-  transform: rotate(180deg);
-}
