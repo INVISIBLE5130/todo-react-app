@@ -1,31 +1,34 @@
 import React from 'react';
 import './MarkersDropDown.css';
-import ListOfMarkers from "./ListOfMarkers";
+import ListOfMarkers from "../ListOfMarkers/ListOfMarkers";
 
 class MarkersDropDown extends React.Component {
 
     state = {
-        showDropdown:false
+        show:{
+            Dropdown:false
+        }
     };
 
     markersList = () => {
-    const {showDropdown} = this.state;
-        this.setState({showDropdown: !showDropdown})
+        const {Dropdown} = this.state;
+
+        this.setState({Dropdown: !Dropdown});
     };
 
     render() {
-        const {showDropdown} = this.state;
-        const {marker, openTask, onTaskDelete} = this.props;
+        const {Dropdown} = this.state;
+        const {marker, onTaskDelete} = this.props;
 
         return (
             <div className="dropDown">
                 <button className="markers_list" onClick={this.markersList}>
                     Markers
-                    <img alt="Down arrow" className="downArrow" src={require('../img/down-arrow.svg')}/>
+                    <img className="Arrow" alt="Arrow" src={require('../../img/down-arrow.svg')}/>
                 </button>
-                {showDropdown && <ListOfMarkers
+                {Dropdown && <ListOfMarkers
                     marker = {marker}
-                    openTask = {openTask}
+                    // openTask = {openTask}
                     onTaskDelete={onTaskDelete} />}
             </div>
         )

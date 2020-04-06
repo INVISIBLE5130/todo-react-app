@@ -1,0 +1,68 @@
+.navBar {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  background: #ff4c57;
+}
+.navBar .logo {
+  display: flex;
+  align-self: center;
+  width: 50%;
+}
+.navBar .user {
+  display: flex;
+  justify-content: left;
+  align-self: center;
+  margin-left: 10%;
+}
+.navBar .user .userName {
+  width: 20px;
+}
+.navBar .user .user_name {
+  font-size: 14px;
+  font-family: "Oxygen Bold", sans-serif;
+  margin-left: 5px;
+  color: white;
+}
+.navBar .email {
+  display: flex;
+  justify-content: left;
+  align-self: center;
+  margin-left: 10%;
+}
+.navBar .email .userEmail {
+  width: 20px;
+}
+.navBar .email .user_email {
+  font-size: 14px;
+  font-family: "Oxygen Bold", sans-serif;
+  margin-left: 5px;
+  color: white;
+}
+.navBar .stats {
+  align-self: center;
+  width: 100%;
+  font-size: 24px;
+  color: white;
+  opacity: 0.5;
+  border-bottom: 1px solid white;
+  text-align: center;
+  cursor: pointer;
+}
+.navBar .stats:hover {
+  opacity: 1;
+}
+.navBar .settings {
+  align-self: center;
+  width: 100%;
+  font-size: 24px;
+  color: white;
+  opacity: 0.5;
+  border-bottom: 1px solid white;
+  text-align: center;
+  cursor: pointer;
+}
+.navBar .settings:hover {
+  opacity: 1;
+}
