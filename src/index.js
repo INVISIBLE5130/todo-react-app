@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Navigation from './components/Navigation';
-import ToDoList from "./components/ToDoList";
+import Navigation from './components/Navigation/Navigation';
+import ToDoList from "./components/ToDoList/ToDoList";
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

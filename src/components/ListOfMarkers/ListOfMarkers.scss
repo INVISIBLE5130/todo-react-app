@@ -1,0 +1,28 @@
+.dropdown-content {
+  z-index: 1;
+  width: 227px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff4c57;
+
+  p{
+    width: 100%;
+    color: white;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    display: inherit;
+    position: relative;
+
+    .delete{
+      top: 10%;
+      right: 7%;
+      width: 15px;
+      height: 15px;
+      cursor: pointer;
+      position: absolute;
+    }
+  }
+}

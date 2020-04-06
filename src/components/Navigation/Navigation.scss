@@ -1,0 +1,94 @@
+.navBar{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  background: #ff4c57;
+
+  .logo{
+    display: flex;
+    align-self: center;
+    width: 50%;
+  }
+
+  .user{
+    display: flex;
+    justify-content: left;
+    align-self: center;
+    margin-left: 10%;
+
+    .userName{
+      width: 20px;
+    }
+
+    .user_name{
+      font-size: 14px;
+      font-family: 'Oxygen Bold', sans-serif;
+      margin-left: 5px;
+      color: white;
+    }
+  }
+
+  .email{
+    display: flex;
+    justify-content: left;
+    align-self: center;
+    margin-left: 10%;
+
+    .userEmail{
+      width: 20px;
+    }
+
+    .user_email{
+      font-size: 14px;
+      font-family: 'Oxygen Bold', sans-serif;
+      margin-left: 5px;
+      color: white;
+    }
+  }
+
+  //.tasks{
+  //  width: 100%;
+  //  margin-top: 5%;
+  //  font-size: 24px;
+  //  color: white;
+  //  opacity: 0.5;
+  //  border-bottom: 1px solid white;
+  //  text-align: center;
+  //  cursor: pointer;
+  //}
+  //
+  //.tasks:hover{
+  //  opacity: 1;
+  //}
+
+  .stats{
+    align-self: center;
+    width: 100%;
+    font-size: 24px;
+    color: white;
+    opacity: 0.5;
+    border-bottom: 1px solid white;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .stats:hover{
+    opacity: 1;
+  }
+
+  .settings{
+    align-self: center;
+    width: 100%;
+    font-size: 24px;
+    color: white;
+    opacity: 0.5;
+    border-bottom: 1px solid white;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .settings:hover{
+    opacity: 1;
+  }
+}
